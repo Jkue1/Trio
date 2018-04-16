@@ -13,14 +13,11 @@ int main()
   {
     swap (blue, red);
   }
-  else if (blue < green)
+  if (blue < green)
   {
     swap (blue, green);
   }
-  else if (green < red);
-  {
-    swap (green, red);
-  }
+  
   
 
 
