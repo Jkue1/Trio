@@ -9,13 +9,17 @@ int main()
   cin>>red>>green>>blue;
   //...END OF "DO NOT CHANGE" AREA
   
-  if (blue < red)
+  if (blue > red)
   {
     swap (blue, red);
   }
-  if (blue < green)
+  if (blue > green)
   {
     swap (blue, green);
+  }
+  if (green > red)
+  {
+    swap (green, red);
   }
   
   
