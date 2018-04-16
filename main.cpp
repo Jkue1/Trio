@@ -8,6 +8,20 @@ int main()
   cout<<"Enter Red, Green, and Blue values: ";
   cin>>red>>green>>blue;
   //...END OF "DO NOT CHANGE" AREA
+  
+  if (blue < red)
+  {
+    swap (blue, red);
+  }
+  else if (blue < green)
+  {
+    swap (blue, green);
+  }
+  else if (green < red);
+  {
+    swap (green, red);
+  }
+  
 
 
 
